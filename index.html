@@ -27,43 +27,100 @@
       color: #0366d6;
       text-decoration: none;
     }
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    img.thumbnail {
+      width: 100%;
+      max-height: 300px;
+      object-fit: contain;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .summary {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+    .tools, .tags {
+      margin-bottom: 1rem;
+    }
+    .tools strong, .tags strong {
+      display: inline-block;
+      margin-bottom: 0.3rem;
+    }
+    .tools ul, .tags ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .tools li, .tags li {
+      background: #eef2f5;
+      padding: 0.3rem 0.7rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+    a.writeup-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background: #2b7a78;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    a.writeup-link:hover {
+      background-color: #3a9c95;
+    }
+  
   </style>
 </head>
 <body>
 
-  <h1>Adam</h1>
-  <p>Mechanical Engineering graduate with an interest in product design, mechatronics, and biomedical devices.</p>
-
-  <h2>Featured Projects</h2>
-
-  <div class="project">
-    <h2>Capstone: Robotic Surgical Tool</h2>
-    <p>Designed and prototyped a force-feedback laparoscopic tool. Focused on mechanical design, actuation, and testing.</p>
-    <a href="pdfs/Capstone_Project.pdf" target="_blank">View PDF</a>
+  <h1>Adam Laschkewitsch</h1>
+  <p>I’m a Mechanical Engineering graduate with a Biomedical Engineering minor, passionate about biomed kinematics, mechatronics, visualization, and product design. I especially enjoy hands-on projects that result in tangible, visible outcomes: something I can see, hold, and interact with. My work blends technical problem-solving with creative design to bring ideas into the real world./p>
+<h2>Featured Projects</h2>
+<div class="projectcard">
+  <h3>Project Title</h3>
+  <img src="thumbnail.jpg" alt="Thumbnail for Project Title" class="thumbnail" />
+  
+  <p class="summary">
+    This is a brief 2-3 sentence summary highlighting the project’s key goals and outcomes, keeping it concise and engaging.
+  </p>
+  
+  <div class="tools">
+    <strong>Tools & Skills:</strong>
+    <ul>
+      <li>Tool/Skill 1</li>
+      <li>Tool/Skill 2</li>
+      <li>Tool/Skill 3</li>
+      <li>Tool/Skill 4</li>
+    </ul>
+  </div>
+  
+  <div class="tags">
+    <strong>Tags:</strong>
+    <ul>
+      <li>tag1</li>
+      <li>tag2</li>
+      <li>tag3</li>
+    </ul>
   </div>
 
-  <div class="project">
-    <h2>Stepper & DC Motor Control</h2>
-    <p>Built and tuned a motor control system with PID feedback for precise movement control.</p>
-    <a href="pdfs/Motor_Control_Project.pdf" target="_blank">View PDF</a>
-  </div>
-
-  <div class="project">
-    <h2>3D-Printed Prosthetic Wrist</h2>
-    <p>Developed a low-cost, parametric prosthetic wrist joint with modular components.</p>
-    <a href="pdfs/Prosthetic_Wrist.pdf" target="_blank">View PDF</a>
-  </div>
-
-  <h2>Mini Projects</h2>
-
-  <ul>
-    <li><a href="pdfs/MiniProject1.pdf" target="_blank">Laser-cut Gearbox Prototype</a></li>
-    <li><a href="pdfs/MiniProject2.pdf" target="_blank">Raspberry Pi Thermal Monitor</a></li>
-    <li><a href="pdfs/MiniProject3.pdf" target="_blank">Arduino-based Water Level Sensor</a></li>
-    <!-- Add more as needed -->
-  </ul>
-
-  <p>For more details or a full resume, contact me at <strong>your.email@example.com</strong></p>
-
+  <a href="Public PDFs/01_Laschke_GroundVehicle.pdf" target="_blank" class="writeup-link">View Full Writeup</a>
+</div>
 </body>
 </html>
