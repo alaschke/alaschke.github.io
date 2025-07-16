@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-This repository hosts my personal portfolio website showcasing my mechanical engineering projects, including my capstone and featured work.
+This repository hosts my personal portfolio website showcasing my engineering projects, including my capstone and featured work.
 
 ## About
 
