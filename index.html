@@ -4,50 +4,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Adam – Engineering Portfolio</title>
-  <link href="styles.css" type="text/css" rel="stylesheet" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <div class+"about">
+  <header>
     <h1>Adam Laschkewitsch</h1>
     <p>I’m a Mechanical Engineering graduate with a Biomedical Engineering minor, passionate about biomed kinematics,
       mechatronics, visualization, and product design. I especially enjoy hands-on projects that result in tangible,
       visible outcomes: something I can see, hold, and interact with. My work blends technical problem-solving with
       creative design to bring ideas into the real world.</p>
-  </div>
+  </header>
 
   <h2>Featured Projects</h2>
-  <div class="projectcard">
-    <h3>Project Title</h3>
-    <img src="thumbnail.jpg" alt="Thumbnail for Project Title" class="thumbnail" />
-
-    <p class="summary">
-      This is a brief 2-3 sentence summary highlighting the project’s key goals and outcomes, keeping it concise and
-      engaging.
-    </p>
-
-    <div class="tools">
-      <strong>Tools & Skills:</strong>
-      <ul>
-        <li>Tool/Skill 1</li>
-        <li>Tool/Skill 2</li>
-        <li>Tool/Skill 3</li>
-        <li>Tool/Skill 4</li>
-      </ul>
-    </div>
-
-    <div class="tags">
-      <strong>Tags:</strong>
-      <ul>
-        <li>tag1</li>
-        <li>tag2</li>
-        <li>tag3</li>
-      </ul>
-    </div>
-
-    <a href="Public_PDFs/01_Laschke_GroundVehicle.pdf" target="_blank" class="writeup-link">View Full Writeup</a>
-  </div>
+  <main class="project-grid">
+    <article class="project-card">
+      <img src="images/project-thumbnail.jpg" alt="Project thumbnail" class="project-thumbnail" />
+      <div class="project-content">
+        <h2>Capstone RC Ground Vehicle</h2>
+        <p>Played a central role in designing and prototyping a compact, high-speed RC ground vehicle for future
+          autonomous research, focusing on steering geometry and custom controls.</p>
+        <ul class="tag-list">
+          <li>Mechanical Design</li>
+          <li>Embedded Systems</li>
+          <li>Power Systems</li>
+        </ul>
+        <a href="Public_PDFs/01_Laschke_GroundVehicle.pdf" class="button" target="_blank">View Writeup (PDF)</a>
+      </div>
+    </article>
+  </main>
 </body>
 
 </html>
