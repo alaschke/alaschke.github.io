@@ -18,4 +18,4 @@ To update the site:
 
 ## Contact
 
-Feel free to reach out via [alaschke@outlook.com] or connect on [LinkedIn](https://www.linkedin.com/in/alaschke).
+Feel free to reach out via alaschke@outlook.com or connect on [LinkedIn](https://www.linkedin.com/in/alaschke).
